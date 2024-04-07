@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.box-section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+#yellow{
+    background-color: yellow;
+}
+
+#pink{
+    background-color: #ee07e1;
+}
+
+#green{
+    background-color: #72ff2c;
+}
