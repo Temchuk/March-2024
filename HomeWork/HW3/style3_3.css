@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+}
+
+.box-section{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+#orange{
+    background-color: rgba(255, 81, 16, 0.3);
+    color: black;
+}
+
+#green{
+    background-color: rgba(31, 96, 2, 0.98);
+    color: white;
+}
+
+.flex{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.aref-ruqaa-ink-regular {
+    font-family: "Aref Ruqaa Ink", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p{
+    margin-top: 40px;
+    width: 90%;
+}
