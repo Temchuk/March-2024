@@ -18,7 +18,7 @@ main{
     background: linear-gradient(0deg, #A5A5A3 0%, #A5A5A3 100%), linear-gradient(0deg, #979796 0%, #979796 100%), #979796;
 }
 
-.class-section2{
+.class-section{
     display: flex;
     flex-direction: column;
 }
