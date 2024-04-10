@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.koho-regular {
+    font-family: "KoHo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*загальна позиція для трьох сторінок*/
+
+.box-section{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.div-class{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*сторінка 1*/
+
+#id-section-1{
+    background-image: url(1.png);
+}
+
+#id-div-1{
+    width: 70vw;
+    height: 40vh;
+    flex-shrink: 0;
+    background: #FAF9F7;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    display: flex;
+}
+
+#img1-1{
+    height: 100%;
+    width: 35vw;
+}
+
+#id-article-1{
+    height: 100%;
+    width: 35vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.class-h1-1{
+    color: #000;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "KoHo", sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.p-class1{
+    color: #000;
+    font-family: "KoHo", sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 5vh 0;
+}
+
+.class-button-1{
+    width: 27vw;
+    height: 8vh;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    color: #000;
+    font-family: "KoHo", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/*сторінка 2*/
+
+#id-section-2{
+    background-image: url(2-3.png);
+}
+
+iframe{
+    width: 63vw;
+    height: 54vh;
+    flex-shrink: 0;
+    margin-top: 105px;
+}
+
+.p-class2{
+    width: 63vw;
+    height: 17vh;
+    flex-shrink: 0;
+    color: #000;
+    font-family: "KoHo", sans-serif;
+    font-size: 2.1875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 11vh;
+    margin-bottom: 9vh;
+
+}
+/*сторінка 3*/
+
+#id-section-3 {
+    background-image: url(2-3.png);
+}
+
+#id-div-3{
+    margin-top: 16vh;
+    margin-bottom: 17.6vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.class-div-4{
+    background-color:rgba(83, 83, 83, 0.40);
+    height: 71vh;
+    width: 30vw;
+    margin: 0 1.2vw;
+}
+
+.img{
+    width: 27vw;
+    height: 22vw;
+    margin-top: 3vh;
+}
+.class-h1-2{
+    color: #000;
+    font-family: "KoHo", sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+}
+
+.p-class3{
+    color: #000;
+    font-family: "KoHo", sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 6vh;
+}
+
+.class-h1-3{
+    color: #000;
+    font-family: "KoHo", sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.class-button-2{
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    height: 8vh;
+    width: 27vw;
+    margin-top: 2.5vh;
+    color: #6B6666;
+    font-family: "KoHo", sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
