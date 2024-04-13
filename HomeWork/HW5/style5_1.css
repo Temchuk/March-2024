@@ -1,0 +1,26 @@
+
+#id-div-1 li:nth-child(even){
+    color: deeppink;
+}
+
+#id-div-2 li:nth-child(odd){
+    font-size: 22px;
+
+}
+
+#id-div-3 li:nth-child(2n+4)::after{
+    content: "!!!";
+}
+
+#id-div-4 li:last-child {
+    color: #fa0afa;
+}
+
+#id-div-4 li:last-child {
+    color: #fa0afa;
+}
+
+#id-div-5 li::first-letter {
+    font-size: 30px;
+    color: red;
+}
