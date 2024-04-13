@@ -1,0 +1,31 @@
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+
+    body {
+        font-size: 32px;
+    }
+
+    article {
+        width: 50%;
+        height: 100%;
+        writing-mode: vertical-rl;
+    }
+
+    .flex-2{
+        height: 100%;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: row;
+    }
+
+    .flex-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: row;
+    }
+}
+

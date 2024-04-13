@@ -1,0 +1,28 @@
+@media screen and (max-width: 600px){
+
+    .flex-2{
+        flex-direction: column;
+    }
+
+    body{
+        font-size: 25px;
+    }
+
+    article{
+        width: 100%;
+    }
+
+    header{
+        height: 20%;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .box{
+        font-size: 25px;
+        height: 10vh;
+        width: 100%;
+    }
+}

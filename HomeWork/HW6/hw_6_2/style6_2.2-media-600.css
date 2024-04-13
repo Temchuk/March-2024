@@ -1,0 +1,19 @@
+@media screen and (max-width: 600px){
+    .flex{
+        flex-direction: column;
+    }
+
+    body{
+        font-size: 25px;
+    }
+
+    .class-section-1{
+        width: 100%;
+        height: 70%;
+    }
+    .class-section-2{
+        width: 100%;
+        height: 30%;
+    }
+
+}

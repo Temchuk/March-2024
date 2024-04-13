@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 35px;
+}
+
+header{
+    height: 30vh;
+    background-color: red;
+    font-size: 1em;
+  }
+
+.flex{
+    height: 70vh;
+    display: flex;
+}
+
+section{
+    height: 100%;
+    font-size: 0.7em;
+  }
+
+.class-section-1{
+    width: 70%;
+    background-color: #72ff2c;
+}
+
+.class-section-2{
+    width: 30%;
+    background-color: #06f6df;
+}
+
+header, section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
