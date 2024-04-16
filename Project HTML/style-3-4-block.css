@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.open-sans {
+                font-family: "Open Sans", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 400;
+                font-style: normal;
+                font-variation-settings:
+                        "wdth" 100;
+            }
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+.josefin-sans {
+                   font-family: "Josefin Sans", sans-serif;
+                   font-optical-sizing: auto;
+                   font-weight: 400;
+                   font-style: normal;
+               }
+
+ /*Блок 3--------------------*/
+
+#id-block-3{
+    width: 100%;
+    height: 100vh;
+    background-color: #72ff2c;
+}
+
+
+/*Блок 4--------------------*/
+
+
+#id-block-4{
+    width: 100%;
+    height: 64vh;
+    background-image: url(block-4-bgi.png);
+}
+
+.class-block4-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+}
+
+#id-span-Follow{
+    color: #FF4B32;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 36px */
+}
+
+h2{
+    color: #FFF;
+    text-align: center;
+
+    /* Subtitle / Base */
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 2.7rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 55.9px */
+
+    margin-top: 6.3vh;
+    margin-bottom: 5.9vh;
+}
+
+/*---------------- щоб опустити іконку телефону на рівні з номером---------*/
+#id-img-Telephone{
+    margin-bottom: -0.3vh;
+}
+
+#id-span-Telephone{
+    color: #FFF;
+    text-align: center;
+
+    /* Subheading / Base */
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+
+    margin-left: 1.04vw;
+}
+
+/*-------відступи довкола пошти----*/
+#id-a-gmail{
+    margin-bottom: 2.9vh;
+    margin-top: 2.44vh;
+}
+
+#id-span-gmail{
+    color: #FFF;
+    text-align: center;
+
+    /* Subheading / Base */
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+
+    margin-left: 1.08vw;
+}
+
+/*------------ відступи довкола іконок--------*/
+.class-block4-a-icon{
+    margin: 0 1.4vw 8.6vh 1.4vw;
+    height: 4.9vh;
+    width: 3.5vw;
+}
+
+
+
+
+
+
