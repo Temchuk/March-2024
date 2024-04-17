@@ -4,14 +4,21 @@
     }
 
     #id-block-3{
-        height: 130vh;
+        height: 185vh;
     }
 
     .class-div2-flex-block3{
         flex-direction: column;
     }
+    .class-img-1-3-block3{
+        width: 50vw;
+        height: 100%;
+        margin: 0 1.04vw 2.9vh 1.04vw;
+    }
 
     .class-img-4-6-block3{
+        width: 50vw;
+        height: 100%;
         margin: 0 1.04vw 2.9vh 1.04vw;
     }
 
