@@ -1,0 +1,20 @@
+@media screen and (max-width: 600px) {
+    html {
+        font-size: 12px;
+    }
+
+    #id-block-3{
+        height: 130vh;
+    }
+
+    .class-div2-flex-block3{
+        flex-direction: column;
+    }
+
+    .class-img-4-6-block3{
+        margin: 0 1.04vw 2.9vh 1.04vw;
+    }
+
+
+
+}
